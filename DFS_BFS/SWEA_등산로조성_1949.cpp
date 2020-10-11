@@ -31,7 +31,7 @@ void dfs(int x, int y, int cnt) {
 		int rx = x + dx[i];
 		int ry = y + dy[i];
 		if (rx < 0 || ry < 0 || rx >= N || ry >= N) continue;
-		if (map[x][y] > map[rx][ry]) {
+		if (map[x][y] > map[rx][ry]) { 
 			dfs(rx, ry, cnt + 1);
 		}
 	}
