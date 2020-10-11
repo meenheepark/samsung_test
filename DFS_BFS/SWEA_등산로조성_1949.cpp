@@ -70,7 +70,7 @@ int main() {
 				}
 			}
 		}
-
+ 
 		cout << "#" << test << " " << ans << endl;
 	}
 }
